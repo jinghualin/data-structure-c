@@ -1,0 +1,32 @@
+hw2 airline reservation program
+
+You are to make a airline reservation program with only one class(economy) which means a linked list of reservation records with a queue of waiting list records. Use file operation to keep the records.
+
+1. Menu
+[m]ake a reservation
+[c]ancel a reservation
+[m]odify a reservation
+[s]earch a reservation
+[q]uit
+
+2. making a reservation
+If there is an available seat, go ahead use linked list to insert a reservation. When it is full, tell user and enqueue to a waiting queue.
+
+3. cancel a reservation(by index number)
+When linked list is full, 
+- the system should delete a reservation
+- and right away dequeues from the waiting queue 
+- and insert it to the linked list.
+
+3. modify a reservation(by index number)
+For linked list, the system should delete it and re-insert the modified reservation.
+For waiting queue, just find it by traversing and modify it.
+
+4. search a reservation
+Use strstr for all the field. It shows the index number of the linked list.
+And same for the waiting queue.
+
+5. use file operation, write out all the reservation records to a file and re-read it when the program starts if the file exists. (attached a file)
+
+2. #define EMAX 10
+Use a "#define EMAX " to resize the maximum number of seats for the class.

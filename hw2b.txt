@@ -1,0 +1,14 @@
+Basically the same program.
+Just replace the linked list with binary search tree structure.
+
+typedef struct da
+{
+char name[32];
+...
+struct da* left;
+struct da* right;
+}DA;
+
+hw2b-00.c
+
+Due by next Monday(10/26).

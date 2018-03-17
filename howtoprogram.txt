@@ -1,0 +1,30 @@
+How to make your program presentable!!!!
+1. Comments on your program (name, desc, author, modified by...)
+2. Comments on every function
+(name, desc, author, arguments, returns, modified by...)
+3. Comments on every variable
+4. Comments on every #define, Structure
+5. Indentation by "TAB"
+6. #define MACRO preferably to be ALL CAPITAL
+7. User defined structure(typedef) preferably to be ALL CAPITAL
+8. functions preferably does NOT use CAPITALs
+9. Variables preferably does NOT use CAPITALs
+10. functions preferably use LONGER and MORE MEANINGFUL letters.
+11. every statement better to have a comment line above. If a few lines can be put together, then make a one big comment line.
+12. curly parenthesis( { ) should be started on next line and should match with the other side curly parenthesis( } ) at the same indentation.
+13. if and else statement preferably use curly parenthesis( { } ).
+如何使你的程序像样！！
+1。在你的程序说明（姓名，递减，作者，修改了...）
+2。评论每个函数
+（姓名，递减，作者，论点，退货，修改了...）
+3。评论每个变量
+4。评论每个＃定义，结构
+5。压痕的“统计表”
+6。 ＃define宏，最好是所有资本
+7。用户定义的结构（类型定义）最好在所有资本
+8。功能最好不使用大写
+9。变量最好不使用大写
+10。功能最好使用时间更长，更有意义的信件。
+11。每一个发言最好是有一个注释行以上。如果几行可以放在一起，然后进行一个大的注释行。
+12。花括号（（）应开始下一行，并应配合对方花括号（））在相同的缩进。
+13。 if和else语句，最好使用大括号（（））。

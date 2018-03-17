@@ -1,0 +1,83 @@
+Homework 3 Chinese Railroad System
+
+1. Read a matrix from a file. 
+c:> hw3-xx.exe chcities-location.txt 
+chcities.txt: a file has entries of 25 cities in China 
+25x25 
+ex> 
+c:> type chcities-location.txt 
+Beijing 39°55'N 116°20'E 
+Changchun 43°57'N 125°17'E 
+Chengdu 30°38'N 104°02'E 
+Dalian 38°50'N 121°40'E 
+... 
+0 668 322 -1 1 -1 -1 -1 222 ....... 
+-1 0 333 ..... 
+... 
+
+c:> hw3-xx.exe chcities.txt 
+
+An undirected graph is represented by an adjacency matrix of 
+Beijing, Changchun, ... vertices. 0 means itself. Smaller value 
+means shorter path. -1 means there is no direct connection. 
+
+This program will ask user which city it should start the search (maybe it 
+should show all the cities?) Then, with user''s answer, it will do dfs and bfs. 
+
+2. Depth First Search 
+Print vertices by dfs order starting from a chosen vertex. 
+At a node, dfs search by alphabetical order. 
+ex> Beijing Shanghai.... 
+
+3. Breadth First Search 
+Print vertices by bfs order starting from a chosen vertex. 
+At a node, bfs search by alphabetical order. 
+ex> Beijing Shanghai.... 
+
+4. Depth Frist Search with Origin to Destination
+Print vertices by dfs order starting from a chosen vertex.
+At a node, dfs search by right angle first using Latitude and Longitude.
+Find out a way to calculate the angle(direction) from latitute and longitude. 
+And when it reaches the desination it stops. And list the cities went by. 
+
+作业3中国铁路系统 
+
+1。从文件中读取一个矩阵。 
+荤：“hw3 - xx.exe chcities - location.txt 
+chcities.txt：文件已在中国25个城市项目 
+25 × 25 
+前“ 
+荤：“类型chcities - location.txt 
+新华社北京39 ° 55'N 116 ° 20'E 
+长春43 ° 57'N 125 ° 17'E 
+成都30 ° 38'N 104 ° 02'E 
+大连38 °北纬121 °东经 
+... 
+0 668 322 -1 1 -1 -1 -1 222 ....... 
+-1 0 333 ..... 
+... 
+
+荤：“hw3 - xx.exe chcities.txt 
+
+无向图的代表是邻接矩阵 
+北京，长春，...顶点。 0的手段。较小的值 
+指较短的路径。 -1代表没有直接的联系。 
+
+这个程序会要求用户哪个城市应该开始搜索（也许 
+要显示所有的城市？），然后与user'的答案，它会DFS和BFS。 
+
+2。深度优先搜索 
+由DFS从一个选择的顶点出发顺序打印顶点。 
+在一个节点上，DFS的按字母顺序搜索。 
+前“北京上海.... 
+
+3。广度优先搜索 
+由矿渣从一个顶点出发顺序选择打印顶点。 
+在一个节点上，矿渣按字母顺序搜索。 
+前“北京上海.... 
+
+4。弗里斯特搜索深度与原产地到目的地 
+由DFS从一个选择的顶点出发顺序打印顶点。 
+在一个节点上，由直角的DFS搜索首次使用经度和纬度。 
+找出一种方法来计算的角度（方向从latitute与经度）。 
+当它到达desination它停止。并列出城市过去了。

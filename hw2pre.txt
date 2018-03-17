@@ -1,0 +1,27 @@
+hw2p Airline Reservation using Linked List Part 1
+(hw2.pre Linked List (Reservation))
+
+hw2p-xx.c should be the right name of your homework.
+
+This program makes reservation only for one class(economy)by using one linked list. So operations are inserting a customer, deleting a customer, modifying a customer's information, and printing the list of customers. 
+
+Searching should be done by any fields. It should show proper index number.
+So canceling or modifying should use this index number.
+
+Top menu should show as following:
+
+Welcome to my simple airline reservation !!!!
+
+Make a [R]eservation
+[C]ancel a reservation
+[M]odify a customer's information
+[L]ist reservations
+[S]earch reservations
+[Q]uit
+
+Insert Menu ?
+Last Name:
+First Name:
+Birthday(YYYYMMDD):
+ID#:
+Telephone#:
